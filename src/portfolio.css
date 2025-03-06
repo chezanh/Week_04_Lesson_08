@@ -1,0 +1,59 @@
+:root {
+  --primary-color: #fcf4d9;
+  --secondary-color: #8ed2c9;
+  --third-color: #00aaa0;
+  --fourth-color: #d55b3e;
+  --primary-font: "Didot";
+  --secondary-font: Helvetica, sans-serif;
+  --primary-positioning: center;
+}
+
+.hero {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero h1 {
+  font-family: var(--primary-font);
+  color: var(--third-color);
+}
+
+.hero p {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--third-color);
+  line-height: 2;
+  margin: 0;
+}
+
+.hero h2 {
+  font-family: var(--secondary-font);
+  font-weight: normal;
+  font-size: 24px;
+  color: var(--third-color);
+}
+
+button {
+  background-color: var(--fourth-color);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px 5px;
+  border: none;
+  border-radius: 5px !important;
+}
+
+a:link {
+  color: var(--primary-color) !important;
+}
+
+a:hover {
+  color: var(--third-color) !important;
+  text-decoration: none !important;
+}
+
+a:visited {
+  color: var(--third-color) !important;
+}
