@@ -30,18 +30,18 @@
 
 .hero h2 {
   font-family: var(--secondary-font);
-  font-weight: normal;
+  font-weight: lighter;
   font-size: 24px;
   color: var(--third-color);
 }
 
-button {
+.button-hero {
   background-color: var(--fourth-color);
   color: var(--primary-color);
   text-transform: uppercase;
   text-decoration: none;
   margin: 30px !important;
-  padding: 20px 5px;
+  padding: 20px 10px;
   border: none;
   border-radius: 5px !important;
 }
@@ -59,9 +59,78 @@ a:visited {
   color: var(--third-color) !important;
 }
 
-.project {
+.project-title {
   text-align: center;
   font-family: var(--primary-font);
   font-size: 36px;
   margin: 20px 10px 5px 10px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+  padding-bottom: 20px;
+  line-height: 1.5;
+  color: var(--third-color);
+}
+
+h2 {
+  font-size: 36px;
+  margin-top: 20px;
+  padding-top: 10px;
+  line-height: 7;
+  color: var(--third-color);
+}
+
+.projects {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 27px;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-color) !important;
+  transition: background 0.3s;
+}
+
+.weather {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.weather-app {
+  background-color: var(--primary-color);
+  padding: 10px 5px auto;
+}
+
+.photography {
+  background-color: var(--primary-color);
+  padding: 10px 10px auto;
+  border-radius: 5px;
+}
+
+.lgc {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.yoga {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.yoga-project {
+  background-color: var(--primary-color);
+  padding: 10px 10px auto;
+}
+
+img {
+  border-radius: 5px;
 }
