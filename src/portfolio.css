@@ -41,7 +41,7 @@
   text-transform: uppercase;
   text-decoration: none;
   margin: 30px !important;
-  padding: 20px 10px;
+  padding: 20px 20px !important;
   border: none;
   border-radius: 5px !important;
 }
@@ -70,8 +70,9 @@ p {
   font-size: 16px;
   font-weight: normal;
   padding-bottom: 20px;
-  line-height: 1.5;
+  line-height: 30px;
   color: var(--third-color);
+  padding: 20px 20px;
 }
 
 h2 {
@@ -80,6 +81,7 @@ h2 {
   padding-top: 10px;
   line-height: 7;
   color: var(--third-color);
+  padding: 20px 20px;
 }
 
 .projects {
@@ -103,7 +105,7 @@ h2 {
 
 .weather-app {
   background-color: var(--primary-color);
-  padding: 10px 5px auto;
+  padding: 120px 60px auto;
 }
 
 .photography {
@@ -128,9 +130,31 @@ h2 {
 
 .yoga-project {
   background-color: var(--primary-color);
-  padding: 10px 10px auto;
+  padding: 120px 60px auto;
 }
 
 img {
   border-radius: 5px;
+}
+
+@media (max-width: 960px) {
+  ,
+  project-title {
+    padding: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+
+  .project-title {
+    padding: 0;
+    text-align: center;
+  }
 }
