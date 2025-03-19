@@ -1,8 +1,8 @@
 :root {
-  --primary-color: #fcf4d9;
-  --secondary-color: #8ed2c9;
-  --third-color: #00aaa0;
-  --fourth-color: #d55b3e;
+  --primary-color: #e2d9d3;
+  --secondary-color: #697068;
+  --third-color: #e3f6f5;
+  --fourth-color: #bae8e8;
   --primary-font: "Didot";
   --secondary-font: Helvetica, sans-serif;
   --primary-positioning: center;
@@ -16,14 +16,14 @@
 
 .hero h1 {
   font-family: var(--primary-font);
-  color: var(--third-color);
+  color: var(--secondary-color);
 }
 
 .hero p {
   font-family: var(--secondary-font);
   font-size: 18px;
   font-weight: bold;
-  color: var(--third-color);
+  color: var(--secondary-color);
   line-height: 2;
   margin: 0;
 }
@@ -32,18 +32,18 @@
   font-family: var(--secondary-font);
   font-weight: lighter;
   font-size: 24px;
-  color: var(--third-color);
+  color: var(--secondary-color);
 }
 
 .button-hero {
-  background-color: var(--fourth-color);
+  background-color: var(--secondary-color);
   color: var(--primary-color);
   text-transform: uppercase;
   text-decoration: none;
   margin: 30px !important;
   padding: 20px 20px !important;
   border: none;
-  border-radius: 5px !important;
+  border-radius: 60px !important;
 }
 
 a:link {
@@ -71,7 +71,7 @@ p {
   font-weight: normal;
   padding-bottom: 20px;
   line-height: 30px;
-  color: var(--third-color);
+  color: var(--secondary-color);
   padding: 20px 20px;
 }
 
@@ -80,7 +80,7 @@ h2 {
   margin-top: 20px;
   padding-top: 10px;
   line-height: 7;
-  color: var(--third-color);
+  color: var(--secondary-color);
   padding: 20px 20px;
 }
 
@@ -90,11 +90,15 @@ h2 {
   font-size: 14px;
   line-height: 27px;
   padding: 10px 10px;
+  margin-bottom: 50px;
+  margin-left: 20px;
   border-radius: 5px;
   border: 1px solid var(--secondary-color);
   background-color: var(--secondary-color);
   color: var(--primary-color) !important;
   transition: background 0.3s;
+  border-radius: 60px;
+  width: 150px;
 }
 
 .weather {
@@ -138,8 +142,7 @@ img {
 }
 
 @media (max-width: 960px) {
-  ,
-  project-title {
+  .project-title {
     padding: 0;
     text-align: center;
   }
