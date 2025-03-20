@@ -1,0 +1,33 @@
+:root {
+  --primary-color: #e2d9d3;
+  --secondary-color: #697068;
+  --third-color: #e3f6f5;
+  --fourth-color: #bae8e8;
+  --primary-font: "Didot";
+  --secondary-font: Helvetica, sans-serif;
+  --primary-positioning: center;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  max-width: 1200px;
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  color: #697068;
+}
+
+.about {
+  margin-top: 30px;
+}
+
+p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  line-height: 1.5;
+}

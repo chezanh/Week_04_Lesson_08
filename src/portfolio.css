@@ -37,6 +37,7 @@
 
 .button-hero {
   border: 2px solid var(--secondary-color) !important;
+  color: var(--secondary-color) !important;
   font-weight: 500;
   text-transform: uppercase;
   text-decoration: none;
@@ -47,18 +48,16 @@
 }
 
 a:link {
-  color: var(--secondary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 a:hover {
   color: black !important;
   text-decoration: none !important;
 }
-
 a:visited {
   color: grey !important;
 }
-
 .project-title {
   text-align: center;
   font-family: var(--primary-font);
@@ -165,4 +164,16 @@ img {
 .navbar-brand {
   color: black !important;
   text-transform: uppercase;
+}
+
+.footer {
+  font-family: var(--secondary-font);
+  text-align: center;
+}
+
+.end {
+  display: block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--secondary-color);
 }
