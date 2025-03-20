@@ -1,0 +1,22 @@
+:root {
+  --primary-color: #e2d9d3;
+  --secondary-color: #697068;
+  --third-color: #e3f6f5;
+  --fourth-color: #bae8e8;
+  --primary-font: "Didot";
+  --secondary-font: Helvetica, sans-serif;
+  --primary-positioning: center;
+}
+
+h2 {
+  font-family: var(--primary-font);
+  padding-top: 50px;
+  margin-left: 30px;
+}
+
+.form-row {
+  border: 1px solid var(--secondary-color);
+  padding: 50px 20px 30px 20px;
+  max-width: 50%;
+  border-radius: 5px;
+}
