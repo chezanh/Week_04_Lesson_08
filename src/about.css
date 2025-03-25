@@ -36,7 +36,9 @@ p {
   font-size: 16px;
   line-height: 1.5;
 }
-
+li {
+  margin-bottom: 5px;
+}
 .dropdown {
   list-style-type: none;
   padding: 0;
@@ -47,11 +49,23 @@ p {
   padding: 10px;
   margin-top: 5px;
   text-align: left;
+  margin-bottom: 5px;
 }
 
-.dropdown-history-toggle {
-  cursor: pointer;
-  color: var(--secondary-color);
+.dropdown-skills-content {
+  display: none;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.dropdown-experience-content {
+  display: none;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: left;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 900px) {
