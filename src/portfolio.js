@@ -24,3 +24,21 @@ document
     content.style.display =
       content.style.display === "block" ? "none" : "block";
   });
+
+document
+  .querySelector(".dropdown-experience")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+    const content = document.querySelector(".dropdown-experience-details");
+    content.style.display =
+      content.style.display === "block" ? "none" : "block";
+  });
+
+document
+  .querySelector(".dropdown-experience")
+  .addEventListener("click", function (event) {
+    event.preventDefault();
+    const content = document.querySelector(".dropdown-experience-line");
+    content.style.display =
+      content.style.display === "block" ? "none" : "block";
+  });

@@ -65,7 +65,23 @@ li {
   padding: 10px;
   margin-top: 5px;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+}
+
+.dropdown-experience-details {
+  display: none;
+  padding: 10px;
+  margin-top: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.dropdown-experience-line {
+  display: none;
+  padding: 2px;
+  margin-top: 2px;
+  text-align: left;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 900px) {
