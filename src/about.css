@@ -38,6 +38,14 @@ a:hover {
   color: var(--fourth-color) !important;
 }
 
+.arrow {
+  transition: transform 0.3s ease;
+}
+
+.active.arrow {
+  transform: rotate(90deg);
+}
+
 .about {
   margin-top: 30px;
 }
@@ -120,6 +128,7 @@ li {
   font-size: 12px;
   color: var(--secondary-color);
 }
+
 @media (max-width: 900px) {
   h1 {
     font-size: 24px;

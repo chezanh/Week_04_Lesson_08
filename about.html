@@ -75,8 +75,8 @@
             <div class="about">
               <ul class="dropdown">
                 <li>
-                  <a href="#" class="dropdown-history"> History ▶    </a>
-<p class="dropdown-history-content">I’ve always been interested in coding, but I initially decided to pursue a career in Digital Marketing.
+                  <a href="#" class="dropdown-history" onclick="toggleDropdown(event, 'history')"> History <span class="arrow"> ▶</span>    </a>
+<p class="dropdown-history-content" id="history">I’ve always been interested in coding, but I initially decided to pursue a career in Digital Marketing.
 </br>
 </br>
 Five years ago, I rediscovered my passion for coding and decided to take a frontend course covering HTML, CSS, and JavaScript. The first things I built were a simple website and a weather forecast app, and from that moment, I was hooked.<br>
@@ -112,7 +112,9 @@ I’m constantly learning new technologies to keep up with the fast-paced tech i
                 <li>
                   <a href="#" class="dropdown-skills">Skills ▶
                              </a>
-                  <p class="dropdown-skills-content">Skills text
+                  <p class="dropdown-skills-content"><b>LANGUAGES</b>
+                    <br>
+                    HTML | CSS | javascript
                   </p>
               </li>
               </ul>
