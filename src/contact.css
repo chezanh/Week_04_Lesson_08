@@ -8,10 +8,29 @@
   --primary-positioning: center;
 }
 
+body {
+  background-color: var(--primary-color) !important;
+}
+
 h2 {
   font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 20px;
   padding-top: 50px;
   margin-left: 30px;
+}
+
+h3 {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+h4 {
+  font-family: var(--primary-font);
+  color: var(--secondary-color);
+  font-size: 12px;
 }
 
 .form-row {
@@ -24,4 +43,56 @@ h2 {
 #Socialmedia {
   font-family: var(--secondary-font);
   color: var(--secondary-color);
+  text-align: right !important;
+}
+
+.contact-intro-text {
+  margin-left: 30px !important;
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
+
+.container {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+  margin-top: 30px;
+}
+
+.button-container {
+  border: 2px solid var(--secondary-color) !important;
+  color: var(--secondary-color) !important;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  border-radius: 60px !important;
+  width: 200px;
+}
+
+.submit.button:hover {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.submit.button:link {
+  color: var(--primary-color) !important;
+}
+
+.social-links:visited {
+  text-decoration: none;
+  color: var(--secondary-color) !important;
+}
+
+.social-links:active {
+  text-decoration: none;
+  color: var(--secondary-color) !important;
+}
+
+.end {
+  display: block;
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--secondary-color);
+  text-align: center;
 }
