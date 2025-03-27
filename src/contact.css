@@ -20,3 +20,8 @@ h2 {
   max-width: 50%;
   border-radius: 5px;
 }
+
+#Socialmedia {
+  font-family: var(--secondary-font);
+  color: var(--secondary-color);
+}
