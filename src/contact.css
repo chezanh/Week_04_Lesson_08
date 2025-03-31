@@ -71,7 +71,7 @@ h4 {
 }
 
 .submit.button:hover {
-  color: black !important;
+  color: var(--fourth-color) !important;
   text-decoration: none !important;
 }
 
@@ -95,4 +95,16 @@ h4 {
   font-size: 12px;
   color: var(--secondary-color);
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  #Socialmedia {
+    margin-top: 20px;
+    font-family: var(--secondary-font);
+    color: var(--secondary-color);
+    text-align: left !important;
+  }
+  h3 h4 {
+    font-size: 15px !important;
+  }
 }
