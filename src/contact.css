@@ -108,3 +108,15 @@ h4 {
     font-size: 15px !important;
   }
 }
+
+footer .email-link {
+  text-decoration: none !important;
+  color: var(--secondary-color) !important;
+  font-family: var(--secondary-font);
+  font-size: 12px;
+  text-align: center !important;
+}
+
+footer .email-link:hover {
+  color: var(--fourth-color);
+}
