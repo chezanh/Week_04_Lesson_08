@@ -186,11 +186,13 @@ img {
   display: block; /* Ensures the icons are on a new line */
   text-align: center; /* Centers the icons horizontally */
   margin-top: 10px; /* Optional: Adds space between the email and icons */
+  margin-bottom: 20px;
+  font-size: larger;
 }
 
 .social-link a {
   display: inline-block; /* Ensures they don't collapse */
-  margin: 5px; /* Adds space between icons */
+  margin: 10px; /* Adds space between icons */
 }
 
 .email-link {
