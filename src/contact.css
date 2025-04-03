@@ -70,9 +70,17 @@ h4 {
   width: 200px;
 }
 
+a:hover {
+  color: var(--fourth-color) !important;
+}
 .submit.button:hover {
   color: var(--fourth-color) !important;
   text-decoration: none !important;
+}
+
+.submit-button:hover {
+  color: var(--fourth-color) !important;
+  text-decoration: none;
 }
 
 .submit.button:link {
@@ -151,5 +159,9 @@ footer .email-link:hover {
 .form-control {
   font-family: var(--secondary-font);
   font-size: 16px;
+  color: var(--fourth-color) !important;
+}
+
+.icon-link a {
   color: var(--fourth-color) !important;
 }

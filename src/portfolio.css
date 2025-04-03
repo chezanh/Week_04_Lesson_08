@@ -8,6 +8,9 @@
   --primary-positioning: center;
 }
 
+.navbar-brand {
+  color: var(--fourth-color) !important;
+}
 .hero {
   background-color: var(--primary-color);
   text-align: center;
@@ -52,7 +55,7 @@ a:link {
 }
 
 a:hover {
-  color: black !important;
+  color: var(--fourth-color) !important;
   text-decoration: none !important;
 }
 a:visited {
@@ -197,4 +200,10 @@ img {
 
 .email-link {
   text-align: center;
+}
+
+.opensource {
+  margin-top: 0px;
+  font-size: 12px;
+  font-family: var(--secondary-font);
 }
